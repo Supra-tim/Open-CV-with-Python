@@ -1,5 +1,5 @@
 import cv2
-img=cv2.imread("C:/Users/SUPRATIM DAS/OneDrive/Pictures/Camera Roll/OneDrive/Desktop/Open-CV/Open-CV-with-Python/Geometry/orange.jpg",1)
+img=cv2.imread("image path",1)
 print(img)
 # (255,0,0) this is BGR format Blue Green Red
 img=cv2.line(img, (0,0),(255,255),(255,0,0),5)
